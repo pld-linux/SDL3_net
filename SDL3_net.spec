@@ -2,13 +2,13 @@ Summary:	Simple DirectMedia Layer 3 - network
 Summary(pl.UTF-8):	Biblioteka obsługi sieci w SDL3
 Summary(pt_BR.UTF-8):	Simple DirectMedia Layer 3 - Biblioteca de rede portável
 Name:		SDL3_net
-Version:	3.1.0
+Version:	3.2.0
 Release:	1
 License:	Zlib-like
 Group:		Libraries
 #Source0Download: https://github.com/libsdl-org/SDL_net/releases
-Source0:	https://github.com/libsdl-org/SDL_net/releases/download/prerelease-%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	9ab1ce0aabca7ea7344530657519933d
+Source0:	https://github.com/libsdl-org/SDL_net/releases/download/release-%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	d2a5caa432d8620caa244285000aa2ee
 URL:		https://github.com/libsdl-org/SDL_net
 BuildRequires:	SDL3-devel >= 3.0.0
 BuildRequires:	cmake >= 3.16
